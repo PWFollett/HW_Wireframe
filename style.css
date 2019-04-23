@@ -1,0 +1,98 @@
+
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+	header, nav, section, aside, h3, p, footer{
+	color: #777;
+}
+
+html{
+	background: #777;
+	content: #ebebeb;
+	font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.container{
+	width: 960px;
+	margin:auto;
+}
+
+header{
+	background: #ebebeb;
+	margin-bottom: 10px;
+    text-align: center;
+	padding: 24px;
+	margin-top: 10px;
+}
+body{
+    margin: auto;
+    width: 960px;
+}
+
+nav{
+	text-align:center;
+	background: #ebebeb;
+	margin-bottom: 24px;
+	padding: 24px;
+}
+
+section{
+	float: left;
+	text-align: center;
+	background: #ebebeb;
+	width: 500px;
+}
+
+article{
+	background: #777;
+	width: 480px;
+    margin-left: 6px;
+    height: 220px;
+    display: grid;
+    color: white;
+    margin-top: 25px;
+}
+
+section,
+aside{
+	height: 275px;
+}
+
+h3,
+p{
+    background: #ebebeb;
+}
+
+h3{
+	width: 450px;
+    margin-left: 15px;
+    padding-bottom: 40px;
+}
+
+p{
+	width: 450px;
+    margin-left: 15px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+
+aside{
+	
+	text-align: center;
+	background: #ebebeb;
+    float: right;
+    margin-bottom: 24px;
+	width: 435px;
+    line-height: 75px;
+    
+}
+
+footer{
+	padding: 24px;
+  	clear: both;
+ 	background: #ebebeb;
+    text-align: center;
+    
+}
